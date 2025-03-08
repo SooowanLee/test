@@ -1,0 +1,8 @@
+
+
+java:S14882"kImmediately return this expression instead of assigning it to the temporary variable "memberDetailDTOList".(ËüÕùúÿÿÿÿ8’£—˜ª1
+w	java:S116"VRename this field "LOGIN_EMAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øùšßüÿÿÿÿ8›£—˜ª1
+C
+java:S1170"!Make this final field static too.(øùšßüÿÿÿÿ8›£—˜ª1
+^
+java:S1126""AReplace this if-then-else statement by a single return statement.(Ù‚Ó8 £—˜ª1
