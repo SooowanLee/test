@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 위 코드가 mapper 설정을 하는 코드 -->
+
+<!-- Mapper를 사용하는 Repository의 전체 경로를 적어줘야함. -->
+<mapper namespace="com.example.member.repository.MemberMapperRepository">
+    <insert id="save1" parameterType="com.example.member.dto.MemberMapperDTO">
+        insert into member_table(member_email, member_password, member_name)
+        values (#{member_email}, #{member_password}, #{member_name})
+    </insert>
+</mapper>
+
